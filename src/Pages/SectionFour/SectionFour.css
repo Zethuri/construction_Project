@@ -1,0 +1,54 @@
+.section-holder{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+
+
+}
+
+h2{
+    color: rgb(181, 5, 6);
+    font-weight: 500;
+}
+
+.img-holder{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    height: 450px;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 400px;
+    width: 90%;
+
+    h2{
+        color: rgb(181, 5, 6);
+        font-size: 20px;
+    }
+}
+
+.imgOne{
+    background-image: url("../../images/image1.png");
+    height: 70%;
+    width: 90%;
+}
+
+.imgTwo{
+    background-image: url("../../images/image2.png");
+    height: 70%;
+    width: 90%;
+}
+
+.imgThree{
+    background-image: url("../../images/image3.png");
+    height: 70%;
+    width: 90%;
+}

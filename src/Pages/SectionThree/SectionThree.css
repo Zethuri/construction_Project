@@ -1,0 +1,33 @@
+.sectionHolder{
+    background-image: url("../../images/section3.png");
+    /* padding-bottom: 80px; */
+    height: 350px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sectionThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        color: white;
+        font-size: 30px;
+        font-weight: 100;
+        margin-top: 65px;
+        width: 35%;
+        text-align: center;
+
+    }
+    
+}
+
+.sectionButton{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(181, 5, 6);
+    color: white;
+}

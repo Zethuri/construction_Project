@@ -1,0 +1,38 @@
+.sectionFive{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+.section-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionFiveImg{
+    background-image: url("../../images/Ellipse\ 7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.text-holder{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+
+    p{
+        width: 60%;
+    }
+}
