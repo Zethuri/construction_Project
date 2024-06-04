@@ -5,6 +5,9 @@ import SectionThree from "./Pages/SectionThree/SectionThree";
 import SectionTwo from "./Pages/SectionTwo/SectionTwo";
 import SectionFour from "./Pages/SectionFour/SectionFour";
 import SectionFive from "./Pages/SectionFive/SectionFive";
+import SectionSix from "./Pages/SectionSix/SectionSix";
+import LastSection from "./Pages/LastSection/LastSection";
+import Footer from "./Footer/Footer";
 
 const App =()=>{
   return(
@@ -16,6 +19,9 @@ const App =()=>{
       <SectionThree/>
       <SectionFour/>
       <SectionFive/>
+      <SectionSix/>
+      <LastSection/>
+      <Footer/>
     </div>
   )
 }

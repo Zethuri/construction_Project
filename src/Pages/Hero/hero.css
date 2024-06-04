@@ -30,6 +30,7 @@
     margin-right: 240px;
     background-color: rgb(187, 4, 4);
     color: white;
+    border: none;
 }
 
 .button:hover{
